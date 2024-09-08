@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="https://fonts.cdnfonts.com/css/script-mt" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body onload="onInit()">
+    <h1>Touch Nums</h1>
+    <div class="container">
+      <div class="main-bar">
+        <div class="timer">
+          Timer
+          <div class="stopWatch">00:00:00</div>
+        </div>
+        <div class="difficulty">
+          difficulty
+          <div class="opp">
+            <button onclick="onInit(9)">9</button>
+            <button onclick="onInit(16)">16</button>
+            <button onclick="onInit(25)">25</button>
+            <button onclick="onInit(36)">36</button>
+          </div>
+        </div>
+      </div>
+      <div class="nextNum">Next number is: <span class="num">1</span></div>
+      <table></table>
+    </div>
+    <script src="js/touch-nums.js"></script>
+  </body>
+</html>
